@@ -29,7 +29,10 @@ const Cart = ({ cart, setCart }) => {
     //TODO: 결제하기 버튼 구현하기
     //결제하기 버튼을 눌렀을 때 alert를 띄우고
     //장바구니를 비워주세요.
-    const handlePurchase = () => {};
+    const handlePurchase = () => {
+        alert('결제가 완료되었습니다!');
+        setCart([]);
+    };
 
     return (
         <div className="cart">
